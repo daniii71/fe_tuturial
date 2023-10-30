@@ -1,0 +1,218 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* styles.css */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        background: #0e0c22;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        overflow: hidden;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .container {
+        position: relative;
+        width: 350px;
+        height: 500px;
+        background: rgb(6, 6, 220);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        overflow: hidden;
+      }
+
+      .container::before,
+      .container::after {
+        content: "";
+        position: absolute;
+        height: 650px;
+        width: 650px;
+        animation: animate 4s linear infinite;
+        animation-delay: -2s;
+      }
+
+      .container::before {
+        background: conic-gradient(
+          transparent,
+          transparent,
+          transparent,
+          #e40c3f
+        );
+      }
+
+      .container::after {
+        background: conic-gradient(
+          transparent,
+          transparent,
+          transparent,
+          #00ff1a
+        );
+      }
+
+      @keyframes animate {
+        0% {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .image {
+        position: absolute;
+        inset: 5px;
+        background-color: #0c1022;
+        z-index: 1;
+        border-radius: 16px;
+      }
+
+      .form-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 60vh;
+        width: 100%;
+      }
+
+      .form {
+        width: 100%;
+        max-width: 350px;
+        text-align: center;
+        padding: 20px;
+      }
+
+      .form h2 {
+        font-size: 40px;
+        color: #ffffff;
+        margin-bottom: 50px;
+      }
+
+      .input-box {
+        position: relative;
+        margin: 30px 0;
+      }
+
+      .input-box .input {
+        width: 100%;
+        height: 40px;
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        padding: 15px;
+        color: #ffffff;
+        border-bottom: 2px solid #c41515;
+        transition: border-color 0.3s;
+      }
+
+      .input-box .input:focus {
+        border-color: #ffffff;
+      }
+
+      .input-box label {
+        position: absolute;
+        color: #ffffff;
+        top: -15px;
+        left: 0;
+        font-size: 15px;
+        pointer-events: none;
+        transition: 0.3s;
+      }
+
+      button {
+        height: 40px;
+        width: 100px;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        color: #ffffff;
+        background-color: #0731ec;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <div class="form-box">
+          <div class="form">
+            <h2>Register</h2>
+            <div class="input-box">
+              <label for="username">Username</label>
+              <input type="text" id="username" required />
+            </div>
+            <div class="input-box">
+              <label for="email">Email</label>
+              <input type="email" id="email" required />
+            </div>
+            <div class="input-box">
+              <label for="password">Password</label>
+              <input type="password" id="password" required />
+            </div>
+            <button>Sign up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-size: "poppins";
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      background: #0c1022;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="image">
+        <div class="form-box">
+          <h2>Register</h2>
+          <div class="input-box">
+            <input type="text" />
+            <label for="">Username</label>
+          </div>
+          <div class="input-box">
+            <input type="text" />
+            <label for="">Email</label>
+          </div>
+          <div class="input-box">
+            <input type="text" />
+            <label for="">Password</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
